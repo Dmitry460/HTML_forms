@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <form action="#" method="get" enctype="multipart/form-data">
+      <div>
+        <p>
+          <input
+            pattern="[A-Z]+"
+            placeholder="Придумайте логин"
+            type="text"
+            name="reguser"
+            value=""
+            tabindex="1"
+          />
+          Логин (Только заглавные латинские буквы: A-Z)
+        </p>
+      </div>
+      <div>
+        <p>
+          <input
+            placeholder="Придумайте пароль"
+            type="password"
+            name="regpass"
+          />
+          Пароль
+        </p>
+      </div>
+      <div>
+        <p>
+          <input
+            placeholder="Ваш Email"
+            type="email"
+            name="regEmail"
+          />
+          Email
+        </p>
+      </div>
+      <div>
+        <p><input type="date" /> Укажите дату рождения</p>
+      </div>
+      <div>
+        Укажите пол
+        <p><input type="radio" name="reggender" value="m" checked />Мужской</p>
+        <p><input type="radio" name="reggender" value="w"/>Женский</p>
+      </div>
+      <div>
+        <input
+          placeholder="Сылка на соцсети"
+          type="text"
+          name="reglink"
+        />
+      </div>
+      <br />
+      <div>
+          <button>Регистрация</button>
+          <button type="reset">Очистить форму</button>
+      </div>
+    </form>
+  </body>
+</html>
